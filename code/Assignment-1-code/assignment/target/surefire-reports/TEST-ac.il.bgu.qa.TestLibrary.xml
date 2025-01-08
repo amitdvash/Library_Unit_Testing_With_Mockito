@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ac.il.bgu.qa.TestLibrary" time="2.628" tests="132" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment\target\test-classes;C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment\target\classes;C:\Users\amitd\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\amitd\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\amitd\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\amitd\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\amitd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\amitd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\amitd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\amitd\AppData\Local\Temp\surefire14701792504512544928\surefirebooter-20250108144523611_3.jar C:\Users\amitd\AppData\Local\Temp\surefire14701792504512544928 2025-01-08T14-45-23_322-jvmRun1 surefire-20250108144523611_1tmp surefire_0-20250108144523611_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment\target\test-classes;C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment\target\classes;C:\Users\amitd\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\amitd\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\amitd\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\amitd\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\amitd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\amitd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\amitd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\amitd\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amitd"/>
+    <property name="user.language" value="he"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\amitd\AppData\Local\Temp\surefire14701792504512544928\surefirebooter-20250108144523611_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-LTS-2724"/>
+    <property name="user.name" value="amitd"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amitd\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amitd\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="C:\Users\amitd\OneDrive - post.bgu.ac.il\שולחן העבודה\תואר הנדסת מערכות מידע בן גוריון\שנה ג בן גוריון\סמסטר א\הנדסת איכות תוכנה\עבודות\עבודה 1\Assignment-1-code\assignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1255"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\Users\amitd\AppData\Local\Programs\Python\Python310;C:\Users\amitd\AppData\Local\Programs\Python\Python310\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\16\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\amitd\apache-maven-3.9.9\bin;C:\Program Files\Graphviz\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\amitd\AppData\Local\Programs\Python\Python310;C:\Users\amitd\AppData\Local\Programs\Python\Python310\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\16\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\amitd\AppData\Local\Programs\Python\Launcher\;C:\Users\amitd\AppData\Local\Microsoft\WindowsApps;C:\Users\amitd\AppData\Local\GitHubDesktop\bin;C:;C:\Users\amitd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amitd\AppData\Local\Microsoft\WindowsApps;C:\Users\amitd\AppData\Local\Programs\mongosh\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-LTS-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.483"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.008"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.008"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenBookWithInvalidISBN_WhenAddBook_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenNullReviews_WhenNotifyUserWithBookReviews_ThenThrowNoReviewsFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.01"/>
+  <testcase name="givenReviewsException_WhenNotifyUserWithBookReviews_ThenThrowReviewServiceUnavailableException" classname="ac.il.bgu.qa.TestLibrary" time="0.009"/>
+  <testcase name="givenNullISBN_WhenBorrowBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenAlreadyBorrowedBook_WhenBorrowBook_ThenThrowBookAlreadyBorrowedException" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.008"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenInvalidISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenBookAlreadyInDB_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.021"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[9]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[10]" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[11]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenUserWithInvalidID_WhenRegisterUser_ThenThrowIllegalArgumentException(String)[12]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.007"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenReturnBook_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenNullISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenBookNotInDB_WhenBorrowBook_ThenThrowBookNotFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenUserWithNullID_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenValidISBNAndUserID_WhenGetBookByISBN_ThenReturnBook" classname="ac.il.bgu.qa.TestLibrary" time="0.004">
+    <system-out><![CDATA[Notification failed!
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.009"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenInvalidISBN_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserNotInDB_WhenBorrowBook_ThenThrowUserNotRegisteredException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[9]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[10]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[11]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenBookWithEmptyTitle_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenValidBookReviewsAndUser_WhenNotifyUserWithBookReviews_ThenNotificationSent" classname="ac.il.bgu.qa.TestLibrary" time="0.009"/>
+  <testcase name="givenValidUser_WhenRegisterUser_ThenUserRegistered" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenNullUser_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidISBN_WhenGetBookByISBN_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.005"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[9]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[10]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithInvalidID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException(String)[11]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenValidBookAndUser_WhenBorrowBook_ThenBookBorrowed" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenValidBook_WhenReturnBook_ThenBookReturned" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenBookNotInDB_WhenReturnBook_ThenThrowBookNotFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidNotification_WhenNotifyUserWithBookReviews_ThenThrowNotificationException" classname="ac.il.bgu.qa.TestLibrary" time="0.005">
+    <system-err><![CDATA[Notification failed! Retrying attempt 1/5
+Notification failed! Retrying attempt 2/5
+Notification failed! Retrying attempt 3/5
+Notification failed! Retrying attempt 4/5
+Notification failed! Retrying attempt 5/5
+]]></system-err>
+  </testcase>
+  <testcase name="givenNullUserID_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenNullUserID_WhenBorrowBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenNullISBN_WhenNotifyUserWithBookReviews_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenEmptyReviews_WhenNotifyUserWithBookReviews_ThenThrowNoReviewsFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenBookWithNullAuthor_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.006"/>
+  <testcase name="givenFailToNotify_WhenGetBookByISBN_ThenIgnoreAndReturnBook" classname="ac.il.bgu.qa.TestLibrary" time="0.005">
+    <system-out><![CDATA[Notification failed!
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[8]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[9]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[10]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenInvalidUserID_WhenBorrowBook_ThenThrowIllegalArgumentException(String)[11]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithNullName_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenNullUser_WhenNotifyUserWithBookReviews_ThenThrowUserNotRegisteredException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookWithNullISBN_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithEmptyName_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenNullBook_WhenNotifyUserWithBookReviews_ThenThrowBookNotFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookNotBorrowed_WhenReturnBook_ThenThrowBookNotBorrowedException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenAlreadyBorrowedBook_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenNullUserID_WhenGetBookByISBN_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenAlreadyBorrowedBook_WhenGetBookByISBN_ThenThrowBookAlreadyBorrowedException" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenValidBook_WhenAddBook_ThenBookAddedToLibrary" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[1]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[2]" classname="ac.il.bgu.qa.TestLibrary" time="0.004"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[3]" classname="ac.il.bgu.qa.TestLibrary" time="0.003"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[4]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[5]" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[6]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenBookWithInvalidAuthor_WhenAddBook_ThenThrowIllegalArgumentException(String)[7]" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenNullBook_WhenGetBookByISBN_ThenThrowBookNotFoundException" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenUserAlreadyInDB_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenUserWithNullNotificationService_WhenRegisterUser_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenBookWithNullTitle_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+  <testcase name="givenNullBook_WhenAddBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.001"/>
+  <testcase name="givenNullISBN_WhenReturnBook_ThenThrowIllegalArgumentException" classname="ac.il.bgu.qa.TestLibrary" time="0.002"/>
+</testsuite>
