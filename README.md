@@ -54,3 +54,6 @@ To run the tests, follow these steps:
 2. **execute the following Maven command**:
   ```bash
 mvn clean test
+  ```
+## About
+This project was developed as part of the **Software Quality Engineering** course, focusing on testing practices and ensuring high-quality code through unit testing.
